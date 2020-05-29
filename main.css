@@ -1,0 +1,125 @@
+
+
+.logo{
+    color:white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+.header{
+width: 100%;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+z-index: 1000;
+
+}
+.marg{
+  margin-top: 80px;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8hv;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    display: block;
+    padding: 0 20px;
+    color: #fff;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+    transition: .5s;
+    padding: 10px;
+}
+
+.about{
+ margin: 4em 0;
+ padding: 1em;
+ position: relative;
+}
+.about h1{
+ color:black;
+ margin: 2em;
+}
+.about img{
+ height: 100%;
+    width: 100%;
+    border-radius: 50%
+}
+.about span{
+ display: block;
+ color: #888;
+ position: absolute;
+ left: 115px;
+}
+.about .desc{
+ padding: 2em;
+ border-left:4px solid black;
+}
+.about .desc h3{
+ color: black;
+}
+.about .desc p{
+ line-height:2;
+ color:#888;
+}
+.litteler{
+  max-height: 300px;
+  max-width: 3600px;
+}
+.mar{
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.max{
+  max-height: 400px;
+  margin-bottom: 70px;
+}
+ul:hover li a {
+    filter: blur(5px);
+}
+
+ul:hover li a:hover {
+
+  color: white;
+    font-size: 30px;
+    filter: blur(0px);
+    background-color: black;
+}
+
+.header-bottom{
+    display: flex;
+    margin: auto auto;
+    padding: 20px 20px;
+
+}
+.card-image{
+    width:100%;
+  margin-bottom:25px;
+
+}
+.tx{
+    text-align: center;
+}
